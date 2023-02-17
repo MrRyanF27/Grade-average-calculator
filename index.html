@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Average Calculator App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main> 
+
+        <div class="message">
+            <h2 id="mp">Hi students let's compute your grade!😉</h2>
+        </div>
+
+        <div class="box">
+            <h1>Grade Average Calculator</h1>
+            <div class="student-con">
+                <p>Student name</p>
+                <input type="text" name="" id="sname" placeholder="">
+            </div>
+            
+
+            <div class="sub-container">
+
+                <div class="subs"><p>Math</p> <input type="number" id="math"></div>
+                <div class="subs"><p>English</p> <input type="number" id="english"></div>
+                <div class="subs"><p>Filipino</p> <input type="number" id="filipino"></div>
+                <div class="subs"><p>Science</p> <input type="number" id="science"></div>
+                <div class="subs"><p>PE</p> <input type="number" id="pe"></div>
+                
+
+            </div>
+
+            <button id="btn"> COMPUTE AVERAGE</button>
+
+
+        </div>
+
+        <div class="average-con">
+            <h1 id="display">AVERAGE</h1>
+        </div>
+
+    </main>
+
+    <div class="graded-students">
+
+        
+        <div class="student-list">
+            
+
+            <div class="name">
+                <ol id="slist"></ol>
+            </div>
+
+            <div class="average">
+                <ol id="average-list"></ol>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="GAC.js"></script>
+</body>
+</html>
