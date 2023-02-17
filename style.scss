@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #647E68;
+    height: 100vh;
+    padding: 200px 0;
+
+
+    .box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 500px;
+        height: 600px;
+        border: 2px solid black;
+        // padding: 50px;
+        padding-top: 0px;
+        background-color: whitesmoke;
+        border-radius: 8%;
+        background-color: #3F3B6C;
+
+
+        h1{
+            color: gold;
+        }
+
+
+        .student-con{
+            display: flex;
+            margin-top: 40px;
+            
+        }
+        .student-con p{
+            margin-left: 50px;
+            width: 200px;
+            // border: 1px solid black;
+            padding: 10px 0px;
+            color: white;
+        }
+        #sname{
+            width: 70%;
+            height: 40px;
+            padding-right: 1px;
+            border-radius: 8px;
+        //    padding: 0 10px;
+            padding-left: 20px;
+            margin-right: 10px;
+           font-size: large;
+        }
+        
+
+        .sub-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 2px solid black;
+            margin: 20px 0;
+            padding:20px 0 ;
+            width: 100%;
+            background-color: whitesmoke;
+
+            .subs{
+                display: flex;
+                margin-bottom: 20px;
+                
+            }
+            .subs input{
+                margin-left: 20px;
+                width: 100px;
+                height: 25px;
+                text-align: center;
+            }
+            .subs p{
+                // border: 1px solid black;
+                margin-right: 30px;
+                width: 60px;
+            }
+        }
+
+        #btn{
+            height: 40px;
+            width: 200px;
+            border-radius: 8px;
+            background-color: #0008C1;
+            color: white;
+            border: 2px solid #150050;
+        }
+        #btn:hover{
+            color: gold;
+            border: 1px solid gold;
+        }
+        #btn:active{
+            color: gold;
+            border: 2px solid gold;
+            background-color: #182747;
+        }
+    }
+
+
+    .average-con{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 4px solid #182747;
+        border-radius: 80%;
+        width: 300px;
+        height: 300px;
+        background-color: whitesmoke;
+        color: red;
+
+    }
+
+    .message{
+        padding:0 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 4px solid #182747;
+        border-radius: 8px;
+        width: 300px;
+        height: 300px;
+        background-color: whitesmoke;
+    }
+}
+
+
+
+@media (max-width:320px){
+
+    body{
+        background-color: #647E68;
+    }
+
+    main{
+        width: 100vw;
+        flex-direction: column;
+        padding: 50px 50px;
+    }
+
+    .box{
+        margin: 20px 50px;
+        width: 10px;
+    }
+
+} 
+
+
+
+.graded-students{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    border: 1px solid gold;
+
+    .student-list{
+        display: flex;
+        border: 2px solid black;
+        width: 500px;
+        height: 300px;
+
+
+        .name{
+            
+            
+            border: 1px solid greenyellow;
+            width:50%;
+            height: 100%;
+
+            // #slist{
+            //     display: flex;
+            //     flex-direction: column;
+            // }
+        }
+
+        .average{
+            border: 1px solid red;
+            width:50%;
+            height: 100%;
+        }
+
+        
+
+    }
+}
